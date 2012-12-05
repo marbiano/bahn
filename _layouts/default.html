@@ -10,13 +10,26 @@
    <!-- syntax highlighting CSS -->
    <!-- <link rel="stylesheet" href="/css/syntax.css" type="text/css" /> -->
 
+   <script type="text/javascript">
+      WebFontConfig = { fontdeck: { id: '27110' } };
+
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
 </head>
 <body>
 <div class="site">
   <div class="title">
-    <a href="/">Bahn</a>
+    <a href="/"><img src="images/logo.png" width="30" height="29" alt="Bahn" /></a>
   </div>
   
   {{ content }}
