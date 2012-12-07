@@ -75,10 +75,29 @@ body {
   font-size-adjust: 0.5;
   font-weight: 200;
   font-style: normal;
-  padding: 1em;
 }
 
 /* line 43, ../sass/screen.scss */
+.title a {
+  display: block;
+  border-top: 10px solid #8bc53e;
+}
+/* line 44, ../sass/screen.scss */
+.title a img {
+  display: none;
+}
+
+/* line 52, ../sass/screen.scss */
+.post {
+  padding: 0 1em 0 1em;
+}
+
+/* line 56, ../sass/screen.scss */
+a {
+  color: #8bc53e;
+}
+
+/* line 60, ../sass/screen.scss */
 h1 {
   font-size: 1.94444em;
   line-height: 1.54286em;
@@ -86,13 +105,13 @@ h1 {
   font-size-adjust: 0.5;
   font-weight: bold;
   font-style: normal;
+  line-height: 1.2;
   margin-top: 0.77143em;
-  margin-bottom: 0.19286em;
+  margin-bottom: 0.38571em;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .author-date {
-  font-size: 0.77778em;
-  line-height: 1.92857em;
-  margin-bottom: 1.44643em;
+  margin-bottom: 1.5em;
+  color: #ccc;
 }
