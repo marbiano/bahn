@@ -69,35 +69,48 @@ html {
   line-height: 1.5em;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 body {
   font-family: "Din Text Pro Light", Verdana, sans-serif;
   font-size-adjust: 0.5;
   font-weight: 200;
   font-style: normal;
+  border-top: 3px solid #8bc53e;
 }
 
-/* line 43, ../sass/screen.scss */
-.title a {
-  display: block;
-  border-top: 10px solid #8bc53e;
-}
 /* line 44, ../sass/screen.scss */
-.title a img {
-  display: none;
-}
-
-/* line 52, ../sass/screen.scss */
 .post {
   padding: 0 1em 0 1em;
 }
 
+/* line 48, ../sass/screen.scss */
+.title {
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+/* line 51, ../sass/screen.scss */
+.title a {
+  display: inline-block;
+  padding: 0.4em;
+  border: 2px solid #8bc53e;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
 /* line 56, ../sass/screen.scss */
+.title a img {
+  display: block;
+  border: none;
+}
+
+/* line 64, ../sass/screen.scss */
 a {
   color: #8bc53e;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 h1 {
   font-size: 1.94444em;
   line-height: 1.54286em;
@@ -110,7 +123,7 @@ h1 {
   margin-bottom: 0.38571em;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .author-date {
   margin-bottom: 1.5em;
   color: #ccc;
