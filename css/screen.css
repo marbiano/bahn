@@ -150,17 +150,3 @@ p {
     font-size: 2.5875rem;
   }
 }
-@media only screen and (min-width: 66em) {
-  /* line 127, ../sass/screen.scss */
-  .container {
-    margin: 0;
-    padding-left: 5em;
-  }
-}
-@media only screen and (min-width: 86em) {
-  /* line 134, ../sass/screen.scss */
-  .container {
-    margin: 0;
-    padding-left: 9em;
-  }
-}
