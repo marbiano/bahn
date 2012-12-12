@@ -1,11 +1,11 @@
 ---
 layout: post
-title: La revolucion del iPad
+title: Sobre el iPad mini y la revolución que se viene.
 author: soska
 summary: Este es el primer post que escribo, todo bien, no?
 ---
 
-En agosto del 2010 viajé un par de dias a la ciudad de México para encontrarme con mis amigos Fernando Soto y Andres Barreto. El pretexto era trabajar en el primer prototipo de lo que luego se convertiría en Onswipe. Secretamente, a mi que me estresa tanto viajar, lo que me motivaba en realidad era recoger el primer beneficio como empleado de la nueva compañía. Mi primer iPad.
+En agosto del 2010 viajé un par de dias a la ciudad de México para encontrarme con mis amigos Fernando Soto y Andres Barreto. El pretexto era trabajar en el primer prototipo de lo que luego se convertiría en [Onswipe](http://onswipe.com). Secretamente, a mi que me estresa tanto viajar, lo que me motivaba en realidad era recoger el primer beneficio como empleado de la nueva compañía. Mi primer iPad.
 
 Hasta ese momento, mi único contacto con iOS había sido un iPod touch de primera generación que había remplazado a mi amado iPod video. Faltaba más de un mes para su lanzamiento oficial en México, pero yo ya tenía varias semanas desarrollando un producto para un dispositivo que ni yo ni nadie que conociera hubiera visto nunca.
 

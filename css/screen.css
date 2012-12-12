@@ -87,19 +87,28 @@ html {
   display: inline-block;
   padding: 0.4em;
   background: #8bc53e;
+  width: 3%;
+  max-width: 68px;
+  min-width: 20px;
 }
-/* line 84, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .header a img {
   display: block;
   border: none;
-}
-
-/* line 92, ../sass/screen.scss */
-a {
-  color: #8bc53e;
+  width: 100%;
 }
 
 /* line 96, ../sass/screen.scss */
+a {
+  color: #8bc53e;
+  text-decoration: none;
+}
+/* line 99, ../sass/screen.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 104, ../sass/screen.scss */
 h1 {
   font-family: "Din Display Pro Bold", Verdana, sans-serif;
   font-size-adjust: 0.5;
@@ -111,90 +120,85 @@ h1 {
   margin-top: 1em;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .author-date {
   color: #a8aba4;
   margin-top: 0.75em;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .author {
   border-top: 1px solid #e3e3e1;
   margin-top: 3em;
   padding-top: 0.75em;
 }
-/* line 117, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .author h2 {
   color: #1c1d1a;
   font-size: 1.125rem;
 }
-/* line 121, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .author p {
   margin-bottom: 0.75em;
   color: #a8aba4;
 }
-/* line 125, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .author ul {
   margin: 0;
 }
-/* line 127, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .author ul li {
   display: inline-block;
   color: #dbdcd9;
+  margin-right: 0.25em;
 }
-/* line 130, ../sass/screen.scss */
-.author ul li:after {
-  content: "-";
-  display: inline-block;
-  margin-left: 0.25em;
-}
-/* line 135, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .author ul li.twitter a {
   color: #00aced;
 }
-/* line 138, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .author ul li.github a {
   color: #333;
 }
-/* line 143, ../sass/screen.scss */
-.author ul li:last-child:after {
-  display: none;
+/* line 146, ../sass/screen.scss */
+.author ul li:last-child {
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 34.625em) {
-  /* line 151, ../sass/screen.scss */
+  /* line 153, ../sass/screen.scss */
   html {
     font-size: 1.3125em;
   }
 
-  /* line 154, ../sass/screen.scss */
+  /* line 156, ../sass/screen.scss */
   .author-date {
     font-size: 0.7875rem;
   }
 
-  /* line 157, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   .author {
     font-size: 0.7875rem;
   }
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 163, ../sass/screen.scss */
+  /* line 165, ../sass/screen.scss */
   html {
     font-size: 1.5em;
   }
 }
 @media only screen and (min-width: 45.5em) {
-  /* line 169, ../sass/screen.scss */
+  /* line 171, ../sass/screen.scss */
   html {
     font-size: 1.6875em;
   }
 
-  /* line 172, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   h1 {
     font-size: 2.5875rem;
   }
