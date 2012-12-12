@@ -10,11 +10,16 @@ layout: default
 		{{ content }}
 	</div>
 	<div class="the-author" id="author">
-		<h2>{{ author.name }}</h2>
+		<h2><span>El autor</span></h2>
+		<h3>{{ author.name }}</h3>
 		<p>{{ author.description }}</p>
 		<ul>
 			<li><a href="{{ author.web }}">Web</a></li>
 			<li class="twitter"><a href="http://twitter.com/{{ author.twitter }}">Twitter</a></li>
 			<li class="github"><a href="http://github.com/{{ author.github }}">Github</a></li>
 	</div>
+	<a class="the-action" href="/escribir.html">
+		<h2>¿Querés participar en Bahn?</h2>
+    	<p>Hacerlo es muy fácil, sólo tenés que tener algo genial para compartir.</p>
+	</a>
 </div>
