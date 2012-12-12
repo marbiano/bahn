@@ -1,6 +1,8 @@
 ---
 layout: post
 title: La revolucion del iPad
+author: soska
+summary: Este es el primer post que escribo, todo bien, no?
 ---
 
 En agosto del 2010 viajé un par de dias a la ciudad de México para encontrarme con mis amigos Fernando Soto y Andres Barreto. El pretexto era trabajar en el primer prototipo de lo que luego se convertiría en Onswipe. Secretamente, a mi que me estresa tanto viajar, lo que me motivaba en realidad era recoger el primer beneficio como empleado de la nueva compañía. Mi primer iPad.

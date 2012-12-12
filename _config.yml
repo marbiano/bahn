@@ -1,2 +1,28 @@
 markdown: rdiscount
 permalink: none
+
+# Autores
+authors:
+  # Armando Sosa 
+  soska:
+    name: Armando Sosa
+    description: Changing online publications over at http://onswipe.com.
+    web: http://dupermag.com
+    twitter: soska
+    github: soska
+
+  # Federico Abad
+  abadfederico:
+    name: Federico Abad
+    description: Interaction Designer @ GCBA. ex-mercadolibre y ex-Taringa!.
+    web: http://www.dribbble.com/abadfederico
+    twitter: abadfederico
+    github: abadfederico
+
+  # Martin Bavio
+  mbavio:
+    name: Martin Bavio
+    description: Web Designer and Frontend Web Developer currently pushing pixels at http://zokos.com.
+    web: http://www.martinbavio.com
+    twitter: mbavio
+    github: mbavio
