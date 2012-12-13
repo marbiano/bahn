@@ -1,0 +1,67 @@
+---
+layout: post
+title: La base
+author: mbavio
+state: draft
+---
+
+Este archivo es el base para poder crear un post. Todo lo que tenes que hacer es duplicarlo y editar el contenido, utilizando el formato de Markdown que vamos a mostrar a continuación. No te preocupes por los estilos, ya los escribimos nosotros. :)
+
+
+## Párrafos
+
+Formato por defecto, para generar una serie de párrafos seguidos tienes que dejar una línea de espacio entre ellos.
+
+
+## Encabezados
+
+Por ahora sólo se permiten encabezados de tipo 2 y 3, estos se generan agregando 2 o 3 numerales delante del texto. En caso de necesitar un encabezado de más nivel, avisanos y lo charlamos. :)
+
+En la siguiente sección (Listas), tienes ejemplos de ambos tipos de encabezados.
+
+
+## Listas
+
+### Lista desordenada
+
+Para crear una lista desordenada, solo tenes que agregar un guión delante de una serie de líneas.
+
+- Primer ítem de la lista.
+- Un segundo ítem.
+- Agregamos un tercero para darle mas contenido.
+
+### Lista ordenada
+
+Para crear una lista desordenada, agrega los números correspondientes delante de cada línea.
+
+1. Primer ítem numerado.
+2. El segundo.
+3. Tres y seguimos.
+
+
+## Links
+
+Puedes generar links dentro del contenido, como por ejemplo [este link](http://nba.com). Opcionalmente, puedes agregarle un título como [en este otro caso](http://nba.com/ "Sitio Oficial de la NBA").
+
+
+## Imágenes
+
+Por el momento, y por una cuestión de velocidad, no permitimos que hospedes las imágenes en el repo. Pero si te permitimos que subas la imagen donde quieras, y la llames desde aquí. Podrías por ejemplo utilizar tu cuenta de Dropbox para hospedar a las mismas. Utilizando nuevamente el recurso ¨Homero Simpson¨:
+
+![Neeeerd](https://dl.dropbox.com/u/3102174/neeerd.jpg)
+
+Recomendamos utilizar pocas imágenes (solo las necesarias) y de bajo peso, para aumentar la velocidad de carga del post.
+
+
+## Citas
+
+Para generar citas, lo unico que tienes que hacer es utilizar > delante de cada linea. A continuación, una cita de ejemplo del gran Homero Simpson:
+
+> La vida es una aplastante derrota tras otra hasta que acabas deseando que se muera Flanders.
+
+
+## ¿Más elementos?
+
+Este documento contiene sólo los elementos básicos y esenciales para la creación de un post. Una lista mas extensa de todo lo que se puede hacer con Markdown se encuentra [aquí](http://daringfireball.net/projects/markdown/syntax).
+
+Tener en cuenta que si pruebas en local y algunos elementos no tiene estilos, pueden aún no estar creados. Bahn es un proyecto web, por ende es dinámico y modificable. Si quieres sugerir estilos para los elementos nuevos o los ya existentes, hazlos, ¡tienes todo el código fuente!
