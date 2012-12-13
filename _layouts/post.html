@@ -3,23 +3,23 @@ layout: default
 ---
 {% assign author = site.authors[page.author] %}
 <div id="post" class="the-post">
-	<h1>{{ page.title }}</h1>
-	<p class="the-meta">Escrito por <a href="{{ author.web }}">{{ author.name }}</a> el {{ page.date | date:'%d/%m/%Y' }}.</p>
-	<!-- <p>Lorem ipsum dolor sit amet, consectetur adi * isicing elis *, sed dos eiu * od tempor incididunt ut labore et dolore magna aliqua.</p> -->
-	<div class="the-content">
-		{{ content }}
-	</div>
-	<div class="the-author" id="author">
-		<h2><span>El autor</span></h2>
-		<h3>{{ author.name }}</h3>
-		<p>{{ author.description }}</p>
-		<ul>
-			<li><a href="{{ author.web }}">Web</a></li>
-			<li class="twitter"><a href="http://twitter.com/{{ author.twitter }}">Twitter</a></li>
-			<li class="github"><a href="http://github.com/{{ author.github }}">Github</a></li>
-	</div>
-	<a class="the-action" href="/escribir.html">
-		<h2>¿Querés participar en Bahn?</h2>
-    	<p>Hacerlo es muy fácil, sólo tenés que tener algo genial para compartir.</p>
-	</a>
+    <h1>{{ page.title }}</h1>
+    <p class="the-meta">Escrito por <a href="{{ author.web }}">{{ author.name }}</a> el {{ page.date | date:'%d/%m/%Y' }}.</p>
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adi * isicing elis *, sed dos eiu * od tempor incididunt ut labore et dolore magna aliqua.</p> -->
+    <div class="the-content">
+        {{ content }}
+    </div>
+    <div class="the-author" id="author">
+        <h2><span>El autor</span></h2>
+        <h3>{{ author.name }}</h3>
+        <p>{{ author.description }}</p>
+        <ul>
+            <li><a href="{{ author.web }}">Web</a></li>
+            <li class="twitter"><a href="http://twitter.com/{{ author.twitter }}">Twitter</a></li>
+            <li class="github"><a href="http://github.com/{{ author.github }}">Github</a></li>
+    </div>
+    <a class="the-action" href="/escribir.html">
+        <h2>¿Querés participar en Bahn?</h2>
+        <p>Hacerlo es muy fácil, sólo tenés que tener algo genial para compartir.</p>
+    </a>
 </div>
