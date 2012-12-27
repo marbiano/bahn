@@ -5,7 +5,7 @@ author: mbavio
 state: draft
 ---
 
-Este archivo es el base para poder crear un post. Todo lo que tenes que hacer es duplicarlo y editar el contenido, utilizando el formato de Markdown que vamos a mostrar a continuación. No te preocupes por los estilos, ya los escribimos nosotros. :)
+Este archivo es el base para poder crear un post. Todo lo que tenes que hacer es **duplicarlo** y editar el contenido, utilizando el formato de Markdown que vamos a mostrar a continuación. No te preocupes por los estilos, ya los escribimos nosotros. :)
 
 
 ## Párrafos
